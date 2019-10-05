@@ -6,7 +6,6 @@ import Navbar from './components/Navbar';
 import Details from './components/Details';
 import Default from './components/Default';
 import Cart from './components/Cart';
-import Product from './components/Product';
 import ProductList from './components/ProductList';
 import Modal from './components/Modal';
 

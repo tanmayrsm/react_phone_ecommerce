@@ -1,0 +1,71 @@
+PS D:\Tan\react_shop\shop> git add .
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/data.js.
+The file will have its original line endings in your working directory
+
+
+
+
+PS D:\Tan\react_shop\shop> git commit -m "first commit"
+[master 5f1e7f1] first commit
+ 32 files changed, 1200 insertions(+), 65 deletions(-)
+ create mode 100644 public/img/product-1.png
+ create mode 100644 public/img/product-2.png
+ create mode 100644 public/img/product-3.png
+ create mode 100644 public/img/product-4.png
+ create mode 100644 public/img/product-5.png
+ create mode 100644 public/img/product-6.png
+ create mode 100644 public/img/product-7.png
+ create mode 100644 public/img/product-8.png
+ rewrite src/App.css (99%)
+ rewrite src/App.js (81%)
+ create mode 100644 src/components/Button.js
+ create mode 100644 src/components/Cart/Cart.js
+ create mode 100644 src/components/Cart/CartColumns.js
+ create mode 100644 src/components/Cart/CartItem.js
+ create mode 100644 src/components/Cart/CartList.js
+ create mode 100644 src/components/Cart/CartTotals.js
+ create mode 100644 src/components/Cart/EmptyCart.js
+ create mode 100644 src/components/Cart/package.json
+ create mode 100644 src/components/Default.js
+ create mode 100644 src/components/Details.js
+ create mode 100644 src/components/Modal.js
+ create mode 100644 src/components/Navbar.js
+ create mode 100644 src/components/Product.js
+ create mode 100644 src/components/ProductList.js
+ create mode 100644 src/components/Title.js
+ create mode 100644 src/context.js
+ create mode 100644 src/data.js
+ rewrite src/logo.svg (100%)
+
+
+
+PS D:\Tan\react_shop\shop> git remote add origin https://github.com/tanmayrsm/react_phone_ecommerce.git
+
+
+
+PS D:\Tan\react_shop\shop> git push -u origin master
+Enumerating objects: 60, done.
+Counting objects: 100% (60/60), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (59/59), done.
+Writing objects: 100% (60/60), 455.93 KiB | 11.40 MiB/s, done.
+Total 60 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas: 100% (8/8), done.
+To https://github.com/tanmayrsm/react_phone_ecommerce.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+
+PS D:\Tan\react_shop\shop>
